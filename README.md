@@ -4,7 +4,7 @@
 
 This project analyzes Maruti Suzuki sales data from 2020 to 2024 using SQL and PostgreSQL.
 
-The main goal is to understand sales trends, top-performing models, revenue, and other vehicle-related factors.
+The main goal is to understand sales performance, revenue, top-performing models, and other vehicle-related factors.
 
 ## Tools Used
 
@@ -38,8 +38,7 @@ The dataset contains Maruti Suzuki sales data from 2020 to 2024, including:
 - Fuel type and transmission analysis
 - Customer ratings and mileage
 - Safety rating analysis
-- Revenue ranking
-- Above-average revenue models
+- Revenue ranking using Window Functions
 
 ## SQL Concepts Used
 
@@ -48,10 +47,26 @@ The dataset contains Maruti Suzuki sales data from 2020 to 2024, including:
 - AVG()
 - GROUP BY
 - ORDER BY
-- HAVING
-- Subqueries
 - Window Functions
 - RANK()
+
+## Business Questions
+
+The project answers questions related to:
+
+- Overall units sold and revenue
+- Top-selling models
+- Highest revenue-generating models
+- Segment-wise performance
+- Yearly sales trends
+- Model-wise yearly sales
+- Fuel type performance
+- Transmission type performance
+- Customer ratings
+- Mileage and sales
+- Safety ratings
+- Revenue ranking
+- Monthly sales performance
 
 ## Disclaimer
 
